@@ -1,2 +1,2 @@
 # Restaurant-Menu
-Página para exibição dos itens de menu de um restaurante.
+A Restaurant Menu Page that shows and filters the foods menu. 
