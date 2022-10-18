@@ -1,0 +1,49 @@
+/* Fonte do Projeto */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: beige;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.title {
+    text-align: center;
+
+}
+
+.separator {
+    width: 8rem;
+    height: 0.16rem;
+    background-color: goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+}
+
+.items-section {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    gap: 3rem 2rem;
+    justify-items: center;
+}
+
+.menu-item {
+    display: grid;
+    gap: 1rem 2rem;
+    max-width: 25rem;
+}
