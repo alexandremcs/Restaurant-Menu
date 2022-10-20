@@ -6,23 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Menu</title>
     <!-- style -->
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="restaurant-menu">
         <!-- Title -->
-        <div class="title">
-            <h1>Restaurant Menu</h1>
-            <div class="separator"></div>
-        </div>
-        <!-- Filter Buttons -->
-        <div class="buttons-container">
-
-        </div>
-        <!-- Menu Items -->
-        <div class="items-section">
-            
-        </div>
+        <header>
+            <div class="title">
+                <h2>Restaurant Menu</h2>
+                <div class="separator"></div>
+            </div>
+            <!-- Filter Buttons -->
+            <div class="buttons-container">
+                <nav>
+                    <button type="button" class="filter-button" data-id="">Entradas</button>
+                    <button type="button" class="filter-button" data-id="">Pratos</button>
+                    <button type="button" class="filter-button" data-id="">Bebidas</button>
+                    <button type="button" class="filter-button" data-id="">Sobremesas</button>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- Menu Items -->
+            <div class="items-section">
+                <!--<article class="menu-item">
+                    <img src=${item.image} alt=${item.name} class="image" />
+                    <div class="item-info">
+                        <header>
+                            <p>${item.name}</p>
+                            <p class="price">R$ ${item.price}</p>
+                        </header>
+                        <p class="item-description">
+                            ${item.description}
+                        </p>
+                    </div>
+                </article>-->
+            </div>
+        </main>
     </section>
     <!-- JavaScript -->
     <script src="script.js"></script>

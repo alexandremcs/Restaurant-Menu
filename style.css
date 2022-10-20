@@ -1,49 +1,104 @@
 /* Fonte do Projeto */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
-*,
-::after,
-::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: beige;
+    background-color: #F6FFFD;
     line-height: 1.5;
-    font-size: 0.9rem;
+    font-size: 15px;
 }
 
 .title {
     text-align: center;
+    padding: 100px 0 30px 0;
+}
 
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .separator {
-    width: 8rem;
-    height: 0.16rem;
-    background-color: goldenrod;
+    width: 140px;
+    height: 3px;
+    background-color: #006D5A;
     margin-left: auto;
     margin-right: auto;
 }
 
-img {
-    display: block;
+.buttons-container {
+    text-align: center;
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+.filter-button {
+    width: 100px;
+    padding: 8px 0;
+    background: transparent;
+    color: #006D5A;
+    font-weight: 500;
+    font-size: 15px;
+    border-color: #00352A;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.filter-button:hover {
+    background: #006D5A;
+    color: white;
 }
 
 .items-section {
-    width: 90vw;
-    margin: 0 auto;
     max-width: 1170px;
-    display: grid;
-    gap: 3rem 2rem;
-    justify-items: center;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
 .menu-item {
-    display: grid;
-    gap: 1rem 2rem;
-    max-width: 25rem;
+    display: inline-block;
+    justify-items: center;
+    width: 90vw;
+    max-width: 40%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
 }
+
+.image {
+    display: block;
+    float: left;
+    height: 150px;
+    border: 3px solid #006D5A;
+    border-radius: 5px;
+}
+
+.item-info {    
+   padding-left: 80px;
+}
+
+.item-info header {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px dotted grey;
+   font-weight: bold;
+   padding-left: 10px;
+}
+.item-info p {
+   margin-bottom: 8px;
+}
+.price {
+   color: #00352A;
+}
+.item-description {
+   padding-top: 12px;   
+   margin-left: 10px;
+}  
