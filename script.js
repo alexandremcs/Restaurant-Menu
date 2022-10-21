@@ -129,7 +129,7 @@ function loadMenu(menuItems) {
             <article class="menu-item">
                 <img src=${item.image} alt=${item.name} class="image" />
                 <div class="item-info">
-                    <header>
+                    <header class="item-header">
                         <p>${item.name}</p>
                         <p class="price">R$ ${item.price}</p>
                     </header>

@@ -80,18 +80,14 @@ h2 {
     height: 150px;
     border: 3px solid #006D5A;
     border-radius: 5px;
+    margin-right: 10px;
 }
 
-.item-info {    
-   padding-left: 80px;
-}
-
-.item-info header {
+.item-header {
    display: flex;
    justify-content: space-between;
    border-bottom: 1px dotted grey;
    font-weight: bold;
-   padding-left: 10px;
 }
 .item-info p {
    margin-bottom: 8px;
@@ -102,4 +98,30 @@ h2 {
 .item-description {
    padding-top: 12px;   
    margin-left: 10px;
-}  
+}
+
+
+@media screen and (max-width: 900px) {
+    .items-section {
+        width: 50%;
+    }
+    .buttons-container {
+        width: auto;
+    }
+    .image {
+        float: none;
+        height: 250px;
+        margin-top: 15px;
+    }
+    .item-header {
+        min-width: 380px;
+        justify-content: space-between;
+        border-bottom: 1px dotted grey;
+        font-weight: bold;
+    }
+     .item-description {
+        position: absolute;
+        max-width: 380px;
+        margin-left: 0;
+    }
+}
